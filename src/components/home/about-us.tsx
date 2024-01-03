@@ -16,7 +16,7 @@ const aboutUsData = [
 
 export const AboutUs: React.FC = () => {
   return (
-    <div className="flex flex-col justify-center items-center mt-8">
+    <div className="flex flex-col justify-center items-center">
       <div className="text-3xl m-10 font-bold">About Us</div>
       <div className="flex flex-col gap-20">
         {aboutUsData.map((item, index) => (
