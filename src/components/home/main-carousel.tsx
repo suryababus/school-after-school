@@ -8,8 +8,8 @@ import {
 } from "@/components/ui/carousel";
 import { IconContext } from "react-icons";
 import { FaRegCircleLeft, FaRegCircleRight } from "react-icons/fa6";
+import { FaBookReader } from "react-icons/fa";
 import Autoplay from "embla-carousel-autoplay";
-import Image from "next/image";
 import { Button } from "../ui/button";
 
 export const MainCarousel = () => {
@@ -23,9 +23,11 @@ export const MainCarousel = () => {
     <>
       <div
         id="home"
-        className="flex items-center justify-between h-16 bg-orange-500 pl-2 pr-8"
+        className="flex items-center justify-between h-16 bg-orange-500 pl-8 pr-8"
       >
-        <Image src="/logo.png" alt="logo" height={100} width={50} />
+        <IconContext.Provider value={{ color: "white", size: "32px" }}>
+          <FaBookReader />
+        </IconContext.Provider>
         <div>
           <Button
             className="ml-4"
