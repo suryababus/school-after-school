@@ -35,11 +35,12 @@ export const NavBar = () => {
     setRoute(route);
   };
   return (
-    <div className="relative h-0 flex w-full justify-center items-center">
-      <div className="bg-white flex flex-row mt-32 z-10 rounded-xl overflow-hidden">
+    <div className="fixed h-0 flex w-full justify-center items-center z-20">
+      <div className="bg-white flex flex-row mt-32 z-10 rounded-xl overflow-hidden shadow-xl">
         {NavBarItems.map((item, index) => {
           return (
             <div
+              key={item.link}
               className={`p-2 border-orange-500 ${
                 route === item.link ? "border-b-4" : ""
               }`}
