@@ -23,8 +23,8 @@ const NavBarItems = [
     link: "about-us",
   },
   {
-    name: "Contact Us",
-    link: "contact-us",
+    name: "Gallery",
+    link: "gallary",
   },
 ];
 

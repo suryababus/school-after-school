@@ -87,7 +87,7 @@ function TestimonialCards(props: TestimonialCardsProps) {
       >
         <CarouselContent>
           {testimonialsData.map((item, index) => (
-            <CarouselItem key={index} className="basis-1/2 pb-12">
+            <CarouselItem key={index} className="basis-1/3 pb-12">
               <Card className="border-0 shadow-xl m-2 overflow-visible">
                 <CardHeader>
                   <IconContext.Provider
@@ -100,7 +100,7 @@ function TestimonialCards(props: TestimonialCardsProps) {
                   </IconContext.Provider>
                 </CardHeader>
                 <CardContent>
-                  <div className="text-sm font-thin">{item.description}</div>
+                  <div className="text-sm font-light">{item.description}</div>
                 </CardContent>
                 <CardFooter>
                   <div className="flex row gap-4">
