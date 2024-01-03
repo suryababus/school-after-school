@@ -141,7 +141,7 @@ export const Testimonials = () => {
   };
 
   return (
-    <div className="grid grid-cols-3  p-12 pb-0">
+    <div id="testimonials" className="grid grid-cols-3  p-12 pb-0">
       <div className="flex flex-col">
         <div>
           <div className="text-3xl font-bold">Testimonials from</div>

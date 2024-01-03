@@ -2,7 +2,10 @@ import React from "react";
 
 export const ContactUs: React.FC = () => {
   return (
-    <div className="flex items-center flex-col mt-10 pt-10 bg-gray-200">
+    <div
+      id="contact-us"
+      className="flex items-center flex-col pt-10 bg-gray-200"
+    >
       <div className="text-3xl mb-10 font-bold">Contact Us</div>
       <div className="flex justify-evenly w-full">
         <div className="contact-us-left">

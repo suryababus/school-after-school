@@ -19,7 +19,7 @@ import { Button } from "../ui/button";
 export const MainCarousel = () => {
   return (
     <>
-      <div className="flex items-center h-16 bg-orange-500 pl-2">
+      <div id="home" className="flex items-center h-16 bg-orange-500 pl-2">
         <Image src="/logo.png" alt="logo" height={100} width={50} />
       </div>
       <div className="flex flex-row absolute w-full aspect-[2.5] z-10">

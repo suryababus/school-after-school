@@ -8,23 +8,23 @@ import React from "react";
 const NavBarItems = [
   {
     name: "Home",
-    link: "/",
+    link: "home",
   },
   {
     name: "Our Work",
-    link: "/work",
+    link: "our-work",
   },
   {
-    name: "News Letter",
-    link: "/news",
+    name: "Testimonials",
+    link: "testimonials",
   },
   {
     name: "About Us",
-    link: "/about",
+    link: "about-us",
   },
   {
     name: "Contact Us",
-    link: "/contact",
+    link: "contact-us",
   },
 ];
 
@@ -33,7 +33,15 @@ export const NavBar = () => {
 
   const handleRoute = (route: string) => {
     setRoute(route);
+    scrollToElement(route);
   };
+
+  const scrollToElement = (element: string) => {
+    document.getElementById(element)?.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="fixed h-0 flex w-full justify-center items-center z-20">
       <div className="bg-white flex flex-row mt-32 z-10 rounded-xl overflow-hidden shadow-xl">
