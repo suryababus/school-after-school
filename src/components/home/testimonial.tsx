@@ -141,11 +141,11 @@ export const Testimonials = () => {
   };
 
   return (
-    <div id="testimonials" className="grid grid-cols-3  p-12 pb-0">
+    <div id="testimonials" className="grid grid-cols-3  p-24 pb-8 px-48">
       <div className="flex flex-col">
         <div>
           <div className="text-3xl font-bold">Testimonials from</div>
-          <div className="text-3xl font-bold mb-4">our members</div>
+          <div className="text-3xl font-bold mb-4">our donors</div>
         </div>
         <div className="text-sm">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean

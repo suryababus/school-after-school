@@ -25,9 +25,14 @@ export const MainCarousel = () => {
         id="home"
         className="flex items-center justify-between h-16 bg-orange-500 pl-8 pr-8"
       >
-        <IconContext.Provider value={{ color: "white", size: "32px" }}>
-          <FaBookReader />
-        </IconContext.Provider>
+        <div className="flex">
+          <IconContext.Provider value={{ color: "white", size: "32px" }}>
+            <FaBookReader />
+          </IconContext.Provider>
+          <h1 className="text-white font-bold pl-4 pt-2 text-xl ">
+            School After School
+          </h1>
+        </div>
         <div>
           <Button
             className="ml-4"
