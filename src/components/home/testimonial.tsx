@@ -141,13 +141,16 @@ export const Testimonials = () => {
   };
 
   return (
-    <div id="testimonials" className="grid grid-cols-3  p-24 pb-8 px-48">
+    <div
+      id="testimonials"
+      className="grid md:grid-cols-3 m-4 md:p-24 md:pb-8 md:px-48"
+    >
       <div className="flex flex-col">
         <div>
           <div className="text-3xl font-bold">Testimonials from</div>
           <div className="text-3xl font-bold mb-4">our donors</div>
         </div>
-        <div className="text-sm">
+        <div className="text-sm text-clip w-full">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
           commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
           et magnis dis parturient montes, nascetur ridiculus mus. Donec quam

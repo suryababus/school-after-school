@@ -29,7 +29,7 @@ export const MainCarousel = () => {
           <IconContext.Provider value={{ color: "white", size: "32px" }}>
             <FaBookReader />
           </IconContext.Provider>
-          <h1 className="text-white font-bold pl-4 pt-2 text-xl ">
+          <h1 className="hidden md:block text-white font-bold pl-4 pt-2 text-xl">
             School After School
           </h1>
         </div>

@@ -18,7 +18,7 @@ export const OurWork: React.FC = () => {
   return (
     <div
       id="our-work"
-      className="flex flex-col justify-center items-center bg-blue-50 pb-24 px-24"
+      className="flex flex-col justify-center items-center bg-blue-50"
     >
       <div className="text-3xl m-10 font-bold">Our work</div>
       <div className="flex flex-col gap-20">
