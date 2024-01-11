@@ -25,7 +25,7 @@ export const AboutUs: React.FC = () => {
         {aboutUsData.map((item, index) => (
           <div
             key={index}
-            className={`flex gap-20 ml-20 mr-20 justify-around ${
+            className={`md:flex block m-3 md:m-0 gap-20 md:ml-20 md:mr-20 justify-around ${
               index % 2 !== 0 ? "flex-row" : "flex-row-reverse"
             }`}
           >
@@ -36,7 +36,7 @@ export const AboutUs: React.FC = () => {
                 className="object-cover w-full h-[120]"
               />
             </div>
-            <div className="flex-1">
+            <div className="flex-1 mt-3 md:mt-0">
               <div className="bg-orange-500 h-2 w-20 mb-2" />
               <p className="text-lg font-light text-gray-500">
                 {item.description}

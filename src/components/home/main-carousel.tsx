@@ -51,7 +51,7 @@ export const MainCarousel = () => {
         </div>
         <div className="flex flex-1  items-center">
           <div>
-            <div className="p-8 bg-white bg-opacity-80 rounded-xl bg-blur-lg">
+            <div className="p-8 hidden md:block bg-white bg-opacity-80 rounded-xl bg-blur-lg">
               <div>
                 <span className="text-orange-500 text-7xl font-bold pr-8">
                   School
@@ -62,7 +62,7 @@ export const MainCarousel = () => {
                 School
               </div>
             </div>
-            <Button className="mt-8">READ ABOUT US</Button>
+            <Button className="mt-8 hidden md:block">READ ABOUT US</Button>
           </div>
         </div>
         <div className="flex justify-center items-center p-10">

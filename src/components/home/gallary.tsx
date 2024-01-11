@@ -20,7 +20,7 @@ export const Gallary = () => {
         >
           <CarouselContent>
             {Array.from({ length: 5 }).map((_, index) => (
-              <CarouselItem key={index} className="basis-1/4">
+              <CarouselItem key={index} className="basis-1/1 md:basis-1/4">
                 <img
                   src={`/school${index + 1}.jpeg`}
                   alt="About Us"

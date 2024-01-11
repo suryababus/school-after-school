@@ -25,11 +25,11 @@ export const OurWork: React.FC = () => {
         {aboutUsData.map((item, index) => (
           <div
             key={index}
-            className={`flex gap-20 ml-20 mr-20 justify-around ${
+            className={`md:flex gap-20 m-5 md:ml-20 md:mr-20 justify-around ${
               index % 2 !== 0 ? "flex-row" : "flex-row-reverse"
             }`}
           >
-            <div className="flex-1 rounded-xl overflow-hidden drop-shadow-2xl">
+            <div className="flex-1 rounded-xl overflow-hidden drop-shadow-2xl mb-2 md:mb-0">
               <img
                 src={item.image}
                 alt="About Us"

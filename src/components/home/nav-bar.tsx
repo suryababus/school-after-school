@@ -43,7 +43,7 @@ export const NavBar = () => {
   };
 
   return (
-    <div className="fixed h-0 flex w-full justify-center items-center z-20">
+    <div className="fixed h-0  w-full justify-center items-center z-20  hidden md:flex">
       <div className="bg-white flex flex-row mt-32 z-10 rounded-xl overflow-hidden shadow-xl">
         {NavBarItems.map((item, index) => {
           return (
